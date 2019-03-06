@@ -890,8 +890,6 @@ Wire Wire Line
 Wire Wire Line
 	6975 2750 6925 2750
 Wire Wire Line
-	5300 2150 6250 2150
-Wire Wire Line
 	6925 2150 6925 2750
 Connection ~ 5300 2150
 Wire Wire Line
@@ -910,32 +908,9 @@ Wire Wire Line
 	6550 2650 6625 2650
 Wire Wire Line
 	6625 2650 6625 2700
-$Comp
-L Jumper:Jumper_3_Open JP4
-U 1 1 5CA26069
-P 6550 2475
-F 0 "JP4" H 6700 2375 50  0000 C CNN
-F 1 "Voltage Select" H 6550 2600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6550 2475 50  0001 C CNN
-F 3 "~" H 6550 2475 50  0001 C CNN
-	1    6550 2475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 2475 6850 2475
 Connection ~ 6850 2475
 Wire Wire Line
 	6850 2475 6850 2850
-Wire Wire Line
-	6300 2475 6250 2475
-Wire Wire Line
-	6250 2475 6250 2150
-Connection ~ 6250 2150
-Wire Wire Line
-	6250 2150 6925 2150
-Wire Wire Line
-	6550 2650 6550 2625
-Connection ~ 6550 2650
 Wire Wire Line
 	6200 2950 6625 2950
 Connection ~ 6625 2950
@@ -1015,4 +990,15 @@ Wire Notes Line
 	8950 1650 10625 1650
 Wire Notes Line
 	8600 5300 10625 5300
+Text Label 6300 3050 0    50   ~ 0
+SCL
+Text Label 6300 2950 0    50   ~ 0
+SDA
+Wire Wire Line
+	5300 2150 6925 2150
+Wire Wire Line
+	6625 2650 6625 2475
+Wire Wire Line
+	6625 2475 6850 2475
+Connection ~ 6625 2650
 $EndSCHEMATC
