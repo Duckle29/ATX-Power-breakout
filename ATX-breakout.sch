@@ -659,7 +659,7 @@ $EndComp
 Wire Wire Line
 	8500 2725 8575 2725
 $Comp
-L Device:Q_NPN_BCE Q1
+L Device:Q_NPN_EBC Q1
 U 1 1 5C91A39E
 P 8250 3200
 F 0 "Q1" H 8441 3246 50  0000 L CNN
@@ -693,8 +693,6 @@ F 3 "~" H 8000 3350 50  0001 C CNN
 	1    8000 3350
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 3150 8000 3200
 Connection ~ 8000 3200
 Wire Wire Line
 	8000 3200 8050 3200
