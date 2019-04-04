@@ -16,5 +16,4 @@
 15;"J9";"PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal";1;"5VSB out";;;
 16;"J10";"PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal";1;"3V3 out";;;
 17;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"5K6";;;
-18;"R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"10K";;;
-19;"R3,R5,R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";3;"10k";;;
+18;"R2,R3,R5,R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";4;"10k";;;

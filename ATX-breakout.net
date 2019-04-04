@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/mikkel/projects/ATX-Power-breakout/ATX-breakout.sch)
-    (date "2019-03-18T09:24:18 CET")
-    (tool "Eeschema 5.0.2-5.fc29")
+    (source D:\projects\ATX-breakout\ATX-breakout.sch)
+    (date "2019-04-04 23:40:32")
+    (tool "Eeschema (5.0.1-dev-70-gb7b125d83)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -58,7 +58,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C814E3F))
     (comp (ref R2)
-      (value 10K)
+      (value 10k)
       (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
@@ -110,7 +110,7 @@
       (value Q_NPN_BCE)
       (footprint Package_TO_SOT_THT:TO-92)
       (datasheet ~)
-      (libsource (lib Device) (part Q_NPN_EBC) (description "Transistor NPN (general)"))
+      (libsource (lib Device) (part Q_NPN_EBC) (description "NPN transistor, emitter/base/collector"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C91A39E))
     (comp (ref R4)
@@ -317,7 +317,7 @@
         (pin (num 23) (name Pin_23) (type passive))
         (pin (num 24) (name Pin_24) (type passive))))
     (libpart (lib Device) (part Q_NPN_EBC)
-      (description "Transistor NPN (general)")
+      (description "NPN transistor, emitter/base/collector")
       (docs ~)
       (fields
         (field (name Reference) Q)
@@ -341,7 +341,7 @@
       (description "Jumper, 3-pole, both open")
       (docs ~)
       (footprints
-        (fp Jumper*))
+        (fp SolderJumper*Open*))
       (fields
         (field (name Reference) JP)
         (field (name Value) Jumper_3_Open))
@@ -351,13 +351,13 @@
         (pin (num 3) (name B) (type passive)))))
   (libraries
     (library (logical Connector)
-      (uri /home/mikkel/kicad/symbols/Connector.lib))
+      (uri D:\kicad\library/Connector.lib))
     (library (logical Connector_Generic)
-      (uri /home/mikkel/kicad/symbols/Connector_Generic.lib))
+      (uri D:\kicad\library/Connector_Generic.lib))
     (library (logical Device)
-      (uri /home/mikkel/kicad/symbols/Device.lib))
+      (uri D:\kicad\library/Device.lib))
     (library (logical Jumper)
-      (uri /home/mikkel/kicad/symbols/Jumper.lib)))
+      (uri D:\kicad\library/Jumper.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref J2) (pin 2))
