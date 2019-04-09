@@ -15,6 +15,7 @@ The 5V supply for the I2C connector and the Pi is selected through the the jumpe
 |-------|------------|
 | BCM17 | Power Good |
 | BCM9  | Power On   |
+| BCM26 | BTN to GND |
 
 ![](images/top.png)
 ![](images/bot.png)
