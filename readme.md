@@ -2,7 +2,7 @@
 
 This is just a simple board that breaks out the different rails of an ATX 24pin connector. It's mainly intented to be used for powering a Raspberry Pi and a 3D printer.
 
-The board includes an ESP 4pin connector as well, allowing for up to 32A on the 12v rail. If you slightly overrun the rated 8A per cable, the 3 12v connectors will handle up to 36A (12A each). This is a 12.5 overload at 9A per cable
+The board includes an ESP 4pin connector as well, allowing for up to 32A on the 12v rail. If you slightly overrun the rated 8A per cable, the 3 12v connectors will handle up to 36A (12A each). This is a 12.5% overload at 9A per cable. Most good cables/connectors should handle that.
 
 The other rails can output 12A max, if the PSU can supply that on that rail.
 
@@ -18,3 +18,4 @@ The 5V supply for the I2C connector and the Pi is selected through the the jumpe
 
 ![](images/top.png)
 ![](images/bot.png)
+
