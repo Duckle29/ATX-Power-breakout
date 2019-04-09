@@ -18,3 +18,4 @@ The 5V supply for the I2C connector and the Pi is selected through the the jumpe
 
 ![](images/top.png)
 ![](images/bot.png)
+
