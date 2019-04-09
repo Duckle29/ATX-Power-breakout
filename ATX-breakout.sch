@@ -1040,4 +1040,32 @@ Wire Wire Line
 	10000 3475 10000 3425
 Wire Wire Line
 	10000 3425 10050 3425
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5CAD6096
+P 4125 4250
+F 0 "J?" H 4045 3925 50  0000 C CNN
+F 1 "btn" H 4045 4016 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4125 4250 50  0001 C CNN
+F 3 "~" H 4125 4250 50  0001 C CNN
+	1    4125 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4325 4150 4600 4150
+Wire Wire Line
+	4325 4250 4375 4250
+Wire Wire Line
+	4375 4250 4375 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5CAEFDE2
+P 4375 4300
+F 0 "#PWR?" H 4375 4050 50  0001 C CNN
+F 1 "GND" H 4380 4127 50  0000 C CNN
+F 2 "" H 4375 4300 50  0001 C CNN
+F 3 "" H 4375 4300 50  0001 C CNN
+	1    4375 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
